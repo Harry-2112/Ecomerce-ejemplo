@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="css/estiloslogin.css">
+
+    <!-- BOOSTRAP  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- BARRA DE NAVEGACIÓN -->
+
+    <div class="container barranavegacion">
+
+        <div class="row">
+            <div class="col-md-3 col-sm-4">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="images/logo blue med.png" alt="" class="logo">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Barra de búsqueda -->
+            <div class="col-md-7 col-sm-5">
+                <div class="search-form">
+                    <form class="navbar-form" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Busca lo que necesites...">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <!-- Carrito de compras -->
+            <div class="col-md-2 col-sm-3">
+                <div class="cart">
+                    <div class="cart-icon">
+                        <a href=""><i class="fa fa-shopping-cart"></i></a>
+                    </div>
+                    <div class="cart-text">
+                        CARRITO
+                        <br>
+                        0 productos - S/0.00
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segunda barra de categorías -->
+
+    <div id="navegador">
+        <ul>
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Nosotros</a>
+            </li>
+            <li>
+                <a href="producto.html">Productos</a>
+            </li>
+            <li>
+                <a href="login.html">Contacto</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Login y Registro -->
+    <div id="login-registro">
+        <div class="container">
+            <div class="row">
+                <!-- Login -->
+                <div class="card-login">
+                    <h2 class="login-titulo">Login</h2>
+                    <form action="#">
+                        <div class="mb-4">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" name="correo" placeholder="example@correo.com"
+                                required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="nombre" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" name="correo" placeholder="xxxxxx" required>
+                        </div>
+                        <div>
+                            <div class="mb-4">
+                                <input type="checkbox"> Recuerdame
+                            </div>
+                            <div>
+                                <a href="#">¿Recordar Contraseña?</a>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <button class="btn btn-primary btn-lg">Entrar</button>
+                        </div>
+                        <div class="mb-4">
+                            <a href="#"><img src="https://img.icons8.com/color/48/null/google-logo.png" /></a>
+                            <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png" /></a>
+                            <a href="#"><img src="https://img.icons8.com/color/48/null/linkedin-2--v1.png" /></a>
+                        </div>
+
+                    </form>
+                </div>
+
+
+                <!-- Registro -->
+                <div class="card-registro">
+                    <h2 class="login-titulo">Registro</h2>
+                    <div class="mb-4">
+                        <a href="#"><img src="https://img.icons8.com/color/48/null/google-logo.png" /></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/null/facebook-new.png" /></a>
+                        <a href="#"><img src="https://img.icons8.com/color/48/null/linkedin-2--v1.png" /></a>
+                    </div>
+                    <form action="#">
+                        <div class="mb-4">
+                            <label for="nombre" class="form-label">Nombre y Apellidos</label>
+                            <input type="text" class="form-control" name="nombre" placeholder="Juan Perez Suarez"
+                                maxlength="30" required>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="correo" class="form-label">Correo</label>
+                            <input type="email" class="form-control" name="correo" placeholder="example@correo.com"
+                                maxlength="30" required>
+                        </div>
+                        <div class="mb-4">
+                            <label for="nombre" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" name="correo" placeholder="xxxxxx">
+                        </div>
+                        <div>
+                            <div class="mb-4">
+                                <input type="checkbox">
+                                Acepto <a href="#">Términos y Condiciones</a>
+                            </div>
+                        </div>
+                        <button class="btn btn-info btn-lg">Registrar</button>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </div>
+</body>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4 col-sm-3">
+                <div class="single-widget">
+                    <img src="images/logo-blue-med-blanco.png" alt="BlueMED">
+                    <div class="info">
+                        <p class="info">Scrubs médicos con tecnología antifluido para profesionales imparables como tú.
+                            Siéntete cómodo las 24x7.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-3">
+                <div class="single-widget">
+                    <h2 class="widget-title">Nosotros</h2>
+                    <div class="info">
+                        <p class="info">Oficina: Miraflores 325, Jose Pardo</p>
+                        <p class="info">Celular: 946675925</p>
+                        <p class="info">Email: bluemed@gmail.com</p>
+                        <img src="images/payment.png" alt="we accept">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4 col-sm-3">
+                <div class="single-widget">
+                    <h2 class="widget-title">Nuestros servicios</h2>
+                    <div class="widget-inner">
+                        <ul>
+                            <li><a href="" class="info">Venta mayorista</a></li>
+                            <li><a href="" class="info">Venta minorista</a></li>
+                            <li><a href="" class="info">Ecommerce</a></li>
+                            <li><a href="" class="info">Voluntariados</a></li>
+                            <li><a href="" class="info">Servicios especiales</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+</html>

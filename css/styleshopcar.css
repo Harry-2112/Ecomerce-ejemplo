@@ -1,0 +1,115 @@
+
+.barra{
+    background-color: black;
+}
+
+.carrito{
+    width: 12rem;
+    height: 3rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 400;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    background-color: #1BB0CE;
+    border-style: none;
+}
+
+.desc{
+    color:#1BB0CE;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.logo{
+
+    width: 80%;
+
+}
+   .barranavegacion{
+
+    margin-top: 20px;
+
+  }
+
+
+  .navbar-expand-lg centrado {
+    
+    justify-content: center;
+
+  }
+
+  /* Barra de Navegacion */
+#navegador {
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: center;
+    background-color: #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+  }
+  
+  #navegador li {
+    display: inline;
+    text-align: center;
+  }
+  
+  #navegador li a {
+     padding: 0px 10px 0px 10px;
+     color: #666;
+     text-decoration: none;
+  }
+  
+  #navegador li a:hover {
+    font-weight: 800;
+    color:#1BB0CE;
+  }
+  
+  .imagenprincipal{
+width: 540px;
+margin-left: 30px;
+  }
+
+.descripcion1{
+    margin-left: 150px;
+}
+
+
+
+  .detalle{
+
+    padding-right: 180px;
+
+  }
+  .fondo-celeste{
+    background-color: #1BB0CE;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    color: #eeeeee;
+    padding: 10px;
+  }
+  .fondo-celeste {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.fondo-celeste:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.fondo-rojo{
+    background-color: #4b4746;
+    border-radius: 5px;
+    border: 1px solid #f3f3f3;
+    color: #eeeeee;
+    padding: 10px;
+  }
+  .fondo-rojo:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
